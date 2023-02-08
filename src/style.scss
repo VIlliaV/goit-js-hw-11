@@ -1,0 +1,32 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+header {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(86, 86, 202);
+
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 5px;
+}
+
+.search-form {
+  position: relative;
+  width: 300px;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+input[name='searchQuery'] {
+  padding-right: 45px;
+  width: 300px;
+}
+
+button[type='submit'] {
+  position: absolute;
+  right: -5px;
+  top: 5px;
+  cursor: pointer;
+}
